@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Cultural & Linguistic Atlas of India</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div id="container">
+
+  <!-- MAP -->
+  <div id="map"></div>
+
+  <!-- SIDEBAR -->
+  <div id="sidebar" class="slide-in">
+
+    <h2 id="state-title">State Information</h2>
+
+    <div class="info-grid">
+      <div><span>Language</span><p id="language">—</p></div>
+      <div><span>Script</span><p id="script">—</p></div>
+      <div><span>Region</span><p id="region">—</p></div>
+      <div><span>Capital</span><p id="capital">—</p></div>
+    </div>
+
+    <div class="card">
+      <h3>🎉 Festival</h3>
+      <p id="festival">—</p>
+      <img id="festivalImg" />
+    </div>
+
+    <div class="card">
+      <h3>💃 Dance</h3>
+      <p id="dance">—</p>
+      <img id="danceImg" />
+    </div>
+
+    <div class="card">
+      <h3>🍲 Cuisine</h3>
+      <p id="cuisine">—</p>
+      <img id="foodImg" />
+    </div>
+
+    <div class="card">
+      <h3>📜 History</h3>
+      <p id="history">—</p>
+    </div>
+
+    <p class="hint">🖱 Click on a state</p>
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
